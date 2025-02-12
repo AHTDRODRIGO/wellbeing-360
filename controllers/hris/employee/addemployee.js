@@ -25,7 +25,7 @@ const addEmployee = async (req, res) => {
 
     // Execute the query with parameterized values
     await sequelize.query(query, {
-      replacements: [
+      replacements: [ 
         name,
         nic || null,
         date_of_birth,
