@@ -48,7 +48,7 @@ const Employee = sequelize.define(
     department: {
       type: DataTypes.STRING(100),
       allowNull: false,
-    },
+    }, 
     designation: {
       type: DataTypes.STRING(100),
       allowNull: false,
